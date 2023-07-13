@@ -1,7 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-# More detailed instructions (including how to fill these variables for an
-# online workshop) are available at
+# More detailed instructions (including how to fill these variables for an online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "2023 UC Carpentries Fall Workshop"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
@@ -9,15 +8,14 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Sept. 11-TBD, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-
+humandate: "Sept. 11-18, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:30 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2023-09-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2023-09-TBD        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: [ ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [ ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: [ "TBD" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [ "TBD" ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["carpentries@ucsd.edu"]  # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["timdennis@ucla.edu", "rotsuji@ucsd.edu", "speterso@library.berkeley.edu"]
-collaborative_notes: [] # optional: URL for the workshop collaborative notes, e.g. an HackMD or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative notes, e.g. an HackMD or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 ---
 
 <!--
@@ -85,7 +83,7 @@ collaborative_notes: [] # optional: URL for the workshop collaborative notes, e.
   Modify the block below if there are any special requirements.
 -->
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with
+  <strong>Requirements:</strong> Participants must have a laptop or desktop with
   a few specific software packages installed (listed
   <a href="#setup">below</a>).
 </p>
