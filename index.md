@@ -133,9 +133,7 @@ Everyone who participates in Carpentries activities is required to conform to th
 then make sure the '_config.yaml' file has updated workshop_repo and workshop_site links -->
 
 />
-> 
 
--->
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
