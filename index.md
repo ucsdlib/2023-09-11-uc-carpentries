@@ -3,22 +3,21 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "2022 UC Carpentries Fall Workshop"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "2023 UC Carpentries Fall Workshop"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Sept. 6-13, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Sept. 11-TBD, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 
-humantime: "9:00 am - 12:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2022-09-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2022-09-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Scott Peterson (UCB)", "Reid Otsuji (UCSD)", "Kat Koziar (UCR)","Kimberly Thomas (UCSD)", "Zhiyuan Yao (UCLA)", "Christine Wells (UCLA)", "Scott Gruber (UCLA)", "Derek Devnich (UC Merced)", "Erin Foster (UC Berkeley)", "Kenji Hayashi (UCLA)", "Ryan Gan (El Camino)" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Stephanie Labou (UCSD)", "Reid Otsuji (UCSD)", "Kristi Liu (UCSB)", "Kat Koziar (UCR)", "Kimberly Thomas (UCSD)", "Lisa Ngo (UCB)", "Leigh Phan (UCLA)", "Eastern Kang (UCSD)"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["kkt008@ucsd.edu", "zyao@ucla.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["timdennis@ucla.edu", "rotsuji@ucsd.edu", "speterso@library.berkeley.edu"]
-collaborative_notes: https://codimd.carpentries.org/fwkQLM2ZTuCRirtE16WjBQ  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:        # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+humantime: "8:30 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2023-09-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2023-09-TBD        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: [ ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [ ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["carpentries@ucsd.edu"]  # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["timdennis@ucla.edu", "rotsuji@ucsd.edu", "speterso@library.berkeley.edu"]
+collaborative_notes: [] # optional: URL for the workshop collaborative notes, e.g. an HackMD or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 ---
 
 <!--
@@ -28,23 +27,6 @@ eventbrite:        # optional: alphanumeric key for Eventbrite registration, e.g
   double quotation marks around the value, unless specified otherwise.
   And run 'tools/check' *before* committing to make sure that changes are good.
 -->
-
-<!--
-  EVENTBRITE
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
--->
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 <h2 id="general">General Information</h2>
 
