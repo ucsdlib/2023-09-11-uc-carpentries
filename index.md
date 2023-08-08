@@ -129,8 +129,6 @@ Everyone who participates in Carpentries activities is required to conform to th
 <!-- to add survey go to 'layouts' folder >  'workshops.html' and update to "<meta name="slug" content="{{site.github.project_title}}"
 then make sure the '_config.yaml' file has updated workshop_repo and workshop_site links -->
 
-/>
-
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
