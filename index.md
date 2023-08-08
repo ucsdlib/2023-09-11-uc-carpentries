@@ -8,12 +8,12 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Sept. 11-18, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Sept. 11-21, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:30 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2023-09-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2023-09-TBD        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: [ "TBD" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [ "TBD" ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+enddate: 2023-09-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: [ "Scott Peterson", "Reid Otsuji", "Kim Thomas", "Albert Lee", "Echelle Burns", "Scott Peterson", "Geoffrey Boushey", "David Palmquist", "Lisa McAulay", "Jamie Jamison", Derek Devnich", "Saulo Soares" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [ "Rosana Aguilera", "Celeste Allaband", "Jean Allen", "Kristian Allen", "Misha Coleman", "Stephanie Labou", "Devontae Baxter", "Monique Surles-Zeigler", "Ellen Davenport" ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["carpentries@ucsd.edu"]  # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["timdennis@ucla.edu", "rotsuji@ucsd.edu", "speterso@library.berkeley.edu"]
 collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative notes, e.g. an HackMD or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 ---
@@ -58,10 +58,7 @@ collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative note
 -->
 <p id="who">
   <strong>Who:</strong>
-  This workshop is open to UCSD students, staff, and faculty.
-</p>
-<p>
-  <strong>You don't need to have any previous knowledge of programming or the tools presented in the workshop to attend.  A laptop is required for each session.</strong>
+  This workshop is open to University of California students, staff, postdocs, and faculty. <strong>You don't need to have any previous knowledge of programming or the tools presented in the workshop to attend.  A laptop is required for each session.</strong>
 </p>
 
 <!--
@@ -98,7 +95,7 @@ collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative note
   <strong>Contact</strong>:
   Please email kkt008@ucsd.edu or zyao@ucla.edu for more information.
 </p>
-
+<!--
 <p id="certificate">
 <strong>For UCSD students</strong>:
   A Co-Curricular of Record activity recognition may be requested for UCSD students who attend Day 1-3 plus one additional session day. 
@@ -106,7 +103,7 @@ collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative note
   Learning Tools Co-Curricular Record page</a>.
 </p>
 <hr/>
-
+-->
 <!-- Below is the official Carpentries Code of Conduct information -->
 
 <h2 id="code-of-conduct">Code of Conduct</h2>
