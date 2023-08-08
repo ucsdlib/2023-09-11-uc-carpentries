@@ -26,13 +26,14 @@ collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative note
   And run 'tools/check' *before* committing to make sure that changes are good.
 -->
 
-<h2 id="general">General Information</h2>
-
 <!--
   INTRODUCTION
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 -->
+
+<hr/>
+<h2 id="general">General Information</h2>
 <p>
   <a href="{{site.swc_site}}">The Carpentries</a>
   aims to help researchers get their work done in less time and with less pain by teaching them basic research computing skills. 
@@ -93,7 +94,7 @@ collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative note
 -->
 <p id="contact">
   <strong>Contact</strong>:
-  Please email kkt008@ucsd.edu or zyao@ucla.edu for more information.
+  Please email carpentries@ucsd.edu for more information.
 </p>
 <!--
 <p id="certificate">
@@ -142,7 +143,7 @@ then make sure the '_config.yaml' file has updated workshop_repo and workshop_si
 <div class="row">
   <div>
     <table class="table">
-     <thead><tr> <th><strong>Date</strong></th> <th><strong>Day</strong></th> <th><strong>Topics</strong></th> </tr></thead>
+     <thead><tr> <th><strong>Date</strong></th> <th><strong>Day</strong></th> <th><strong>Topics</strong></th> </tr </thead>
      <tbody>
       <tr><td>Sept 11</td><td> Day 1 </td><td> The Unix Shell: Introduction, Navigating the file system, & working with files & directories</td></tr>
       <tr><td>Sept 12</td><td> Day 2 </td><td> Version Control with Git: Introduction, Creating a Repository, Tracking Changes, and Collaborating</td></tr>
@@ -155,6 +156,9 @@ then make sure the '_config.yaml' file has updated workshop_repo and workshop_si
      </tbody></table>
   </div>
 </div>
+</hr>
+
+
 
 <h2 id="curriculum">Curriculum</h2>
 <!-- R specific data information begins -->
