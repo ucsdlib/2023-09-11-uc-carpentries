@@ -143,7 +143,7 @@ then make sure the '_config.yaml' file has updated workshop_repo and workshop_si
 <div class="row">
   <div>
     <table class="table">
-     <thead><tr> <th><strong>Date</strong></th> <th><strong>Day</strong></th> <th><strong>Topics</strong></th> </tr </thead>
+     <thead><tr> <th><strong>Date</strong></th> <th><strong>Day</strong></th> <th><strong>Topics</strong></th> </tr> </thead>
      <tbody>
       <tr><td>Sept 11</td><td> Day 1 </td><td> The Unix Shell: Introduction, Navigating the file system, & working with files & directories</td></tr>
       <tr><td>Sept 12</td><td> Day 2 </td><td> Version Control with Git: Introduction, Creating a Repository, Tracking Changes, and Collaborating</td></tr>
