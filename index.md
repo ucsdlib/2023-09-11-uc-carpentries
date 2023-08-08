@@ -562,14 +562,5 @@ during the workshop.
     </div>
   </div>
 
-<!-- </div> End of 'SQLite' section. -->
+</div> <--End of 'SQLite' section. -->
 <!--test note-->
-<!--
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
--->
