@@ -179,7 +179,7 @@ We will be using the specific software downloads and data for each lesson. Pleas
 <h2 id="collabnotes">Collaborative Notes</h2>
 <!-- Python specific data information begins -->
 <p id = "notes">
-We will use HackMD collaborative notes for taking notes, and sharing URLs and bits of code. The links to each session are listed at this <a href="https://hackmd.io/Gb6tujHCR6ygyw9P37Xe5Q">link</a>.</p>
+We will use HackMD collaborative notes for taking notes, and sharing URLs and bits of code. The links to each session are listed at this <a href="https://hackmd.io/vfJr8dEaQn-bKG2XoWZexw?edit">link</a>.</p>
 
 <hr/>
 <!--
@@ -232,6 +232,315 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+<!-- Start of 'R' section. -->
+<div id="r">
+  <h3>R</h3>
+  <p>
+    <a href="https://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="https://www.rstudio.com/">RStudio</a>.
+  </p>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event,'RWindows')">Windows</button>
+    <button class="tablinks" onclick="openTab(event,'RMacOS')">MacOS</button>
+    <button class="tablinks" onclick="openTab(event,'RLinux')">Linux</button>
+  </div>
+  <div id="RWindows" class="tabcontent">
+    <p>
+      Install R by downloading and running
+      <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+      from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+      Also, please install the
+      <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+      Note that if you have separate user and admin accounts, you should run the
+      installers as administrator (right-click on .exe file and select "Run as
+      administrator" instead of double-clicking). Otherwise problems may occur later,
+      for example when installing R packages.
+    </p>
+    <p><strong>Video Tutorial:</strong> <a href="https://youtu.be/q0PjTAylwoU">SWC R Install Windows</a></p>
+  </div>
+  <div id="RMacOS" class="tabcontent">
+    <p>
+      Install R by downloading and running
+      <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+      from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+      Also, please install the
+      <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+    </p>
+    <p><strong>Video Tutorial:</strong> <a href="https://youtu.be/5-ly3kyxwEg">SWC R Install Mac</a></p>     
+  </div>
+  <div id="RLinux" class="tabcontent">
+    <p>
+      Instructions for R installation on various Linux platforms (debian,
+      fedora, redhat, and ubuntu) can be found at
+      <https://cran.r-project.org/bin/linux/>. These will instruct you to
+      use your package manager (e.g. for Fedora run
+      <code>sudo dnf install R</code> and for Debian/Ubuntu, add a ppa
+      repository and then run <code>sudo apt-get install r-base</code>).
+      Also, please install the
+      <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+    </p>
+  </div>
+</div>
+
+<!-- End of 'R' section. -->
+
+<!-- Start of 'Python' section. -->
+<div id="python">
+  <h3>Python</h3>
+  <p>
+    We will teach Python using the <a href="https://jupyter.org/">Jupyter Notebook</a>,
+    a programming environment that runs in a web browser (Jupyter Notebook will be installed by Anaconda). For this to work you will need a reasonably
+    up-to-date browser. The current versions of the Chrome, Safari and
+    Firefox browsers are all
+    <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
+    (some older browsers, including Internet Explorer version 9
+    and below, are not).
+  </p>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event,'PythonWindows')">Windows</button>
+    <button class="tablinks" onclick="openTab(event,'PythonMacOS')">MacOS</button>
+    <button class="tablinks" onclick="openTab(event,'PythonLinux')">Linux</button>
+  </div>
+  <div id="PythonWindows" class="tabcontent">
+    <ol>
+      <li>Open <a href="https://www.anaconda.com/products/individual#download-section">https://www.anaconda.com/products/individual#download-section</a> with your web browser.</li>
+      <li>Download the Anaconda for Windows installer with Python 3. (If you are not sure which version to choose, you probably want the 64-bit Graphical Installer <em>Anaconda3-...-Windows-x86_64.exe</em>)</li>
+      <li>Install Python 3 by running the Anaconda Installer, using all of the defaults for installation <em>except</em> make sure to check <strong>Add Anaconda to my PATH environment variable</strong>.</li>
+    </ol>
+    <p><strong>Video Tutorial:</strong> <a href="https://youtu.be/xxQ0mzZ8UvA">SWC Install Python on Windows</a></p>
+  </div>
+  <div id="PythonMacOS" class="tabcontent">
+    <ol>
+      <li>Open <a href="https://www.anaconda.com/products/individual#download-section">https://www.anaconda.com/products/individual#download-section</a> with your web browser.</li>
+      <li>Download the Anaconda Installer with Python 3 for macOS (you can either use the Graphical or the Command Line Installer).</li>
+      <li>Install Python 3 by running the Anaconda Installer using all of the defaults for installation.</li>
+    </ol>
+    <p><strong>Video Tutorial:</strong> <a href="https://youtu.be/TcSAln46u9U">SWC Install Python on Mac</a></p>     
+  </div>
+  <div id="PythonLinux" class="tabcontent">
+    <ol>
+      <li>Open <a href="https://www.anaconda.com/products/individual#download-section">https://www.anaconda.com/products/individual#download-section</a> with your web browser.</li>
+      <li>Download the Anaconda Installer with Python 3 for Linux.<br>
+        (The installation requires using the shell. If you aren't
+        comfortable doing the installation yourself
+        stop here and request help at the workshop.)
+      </li>
+      <li>
+        Open a terminal window and navigate to the directory where
+        the executable is downloaded (e.g., `cd ~/Downloads`).
+      </li>
+      <li>
+        Type <pre>bash Anaconda3-</pre> and then press
+        <kbd>Tab</kbd> to autocomplete the full file name. The name of
+        file you just downloaded should appear.
+      </li>
+      <li>
+        Press <kbd>Enter</kbd>
+        (or <kbd>Return</kbd> depending on your keyboard).
+        You will follow the text-only prompts.
+        To move through the text, press <kbd>Spacebar</kbd>.
+        Type <code>yes</code> and press enter to approve the license.
+        Press <kbd>Enter</kbd> (or <kbd>Return</kbd>)
+        to approve the default location
+        for the files.
+        Type <code>yes</code> and press
+        <kbd>Enter</kbd> (or <kbd>Return</kbd>)
+        to prepend Anaconda to your <code>PATH</code>
+        (this makes the Anaconda distribution the default Python).
+      </li>
+      <li>
+        Close the terminal window.
+      </li>
+    </ol>
+  </div>
+</div>
+
+<!-- End of 'Python' section. -->
+
+<!-- Start of Unix Shell section. -->
+
+<div id="shell">
+  <h3>The Bash Shell</h3>
+  <p>
+    Bash is a commonly-used shell that gives you the power to do
+    tasks more quickly.
+  </p>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event,'ShellWindows')">Windows</button>
+    <button class="tablinks" onclick="openTab(event,'ShellMacOS')">MacOS</button>
+    <button class="tablinks" onclick="openTab(event,'ShellLinux')">Linux</button>
+  </div>
+  <div id="ShellWindows" class="tabcontent">
+    <ol>
+       <li>Download the Git for Windows <a href="https://gitforwindows.org/">installer</a>.</li>
+       <li>Run the installer and follow the steps below:
+          <ol>
+            <p>Git 2.27.0 Setup<p/>
+            <li>Click on "Next" four times (two times if you've previously installed Git).  You don't need to change anything in the Information, location, components, and start menu screens.</li>
+            <li><strong>From the dropdown menu select "Use the nano editor by default" and click on "Next".</strong></li>
+              <p>Adjusting your PATH environment</p>
+            <li>Ensure that "Git from the command line and also from 3rd-party software" is selected and click on "Next". (If you don't do this Git Bash will not work properly, requiring you to remove the Git Bash installation, re-run the installer and to select the "Git from the command line and also from 3rd-party software" option.)</li>
+              <p>Choosing the SSH executable</p>
+              <p>Choosing HTTPS transport backend</p>
+            <li>Ensure that "Use the native Windows Secure Channel library" is selected and click on "Next".</li>
+              <p>This should mean that people stuck behind corporate firewalls that do MITM attacks with their own root CA are still able to access remote git repos.</p>
+              <p>Configuring the line ending conversions</p>
+            <li>Ensure that "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".</li>
+              <p>Configuring the terminal emulator to use with Git Bash</p>
+            <li><strong>Ensure that "Use Windows' default console window" is selected and click on "Next".</strong></li>
+              <p>Configuring extra options</p>
+            <li>Ensure that "Default (fast-forward or merge) is selected and click "Next"</li>
+            <li>Ensure that "Enable file system caching" and "Enable Git Credential Manager" are selected and click on "Next".</li>
+              <p>Configuring experimental options</p>
+            <li>Click on "Install".</li>
+              <p>Installing</p>
+              <p>Completing the Git Setup Wizard</p>
+              <p>as of 2020-06-02, the Window will say "click Finish", but the button is labelled as "Next"</p>
+            <li>Click on "Finish" or "Next".</li>
+          </ol>
+      </li>
+          <li>If your "HOME" environment variable is not set (or you don't know what this is):
+            <ol>
+              <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press <kbd>Enter</kbd>)</li>
+              <li>Type the following line into the command prompt window exactly as shown:
+                <p><code>setx HOME "%USERPROFILE%"</code></p>
+              </li>
+              <li>Press <kbd>Enter</kbd>, you should see <code>SUCCESS: Specified value was saved.</code></li>
+              <li>Quit command prompt by typing <code>exit</code> then pressing <kbd>Enter</kbd></li>
+            </ol>
+	  </li>
+        </ol>
+        <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+        <p><strong>Video Tutorial:</strong> <a href="https://www.youtube-nocookie.com/embed/339AEqk9c-8?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0">Windows Installation</a></p>     
+  </div>
+  <div id="ShellMacOS" class="tabcontent">
+    <p>The default shell in some versions of macOS is Bash, and Bash is available in all versions, so no need to install anything. You access Bash from the Terminal (found in <code>/Applications/Utilities</code>). See the Git installation <a href="#shell-macos-video-tutorial">video tutorial</a> for an example on how to open the Terminal. You may want to keep Terminal in your dock for this workshop.</p>
+        <p>
+            To see if your default shell is Bash type <code>echo $SHELL</code>
+            in Terminal and press the <kbd>Return</kbd> key. If the message
+            printed does not end with '/bash' then your default is something
+            else and you can run Bash by typing <code>bash</code>
+        </p>
+        <p>
+          If you want to change your default shell, see <a href="https://support.apple.com/en-au/HT208050" rel="noopener">
+          this Apple Support article</a> and follow the instructions on "How to change your default shell".
+        </p><strong>Video Tutorial</strong>
+        <a href="https://www.youtube-nocookie.com/embed/9LQhwETCdwY?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0">MacOS Installation</a>
+   </div>
+   <div id="ShellLinux" class="tabcontent">
+      <p>
+        The default shell is usually Bash and there is usually no need to
+        install anything.
+      </p>
+      <p>
+        To see if your default shell is Bash type <code>echo $SHELL</code> in
+        a terminal and press the <kbd>Enter</kbd> key. If the message printed
+        does not end with '/bash' then your default is something else and you
+        can run Bash by typing <code>bash</code>.
+      </p>
+   </div>
+</div>
+<!-- End of Unix Shell section. -->
+
+<!-- Start of Git section. -->
+<div id="git">
+  <h3>Git</h3>
+  <p>
+    Git is a version control system that lets you track who made changes
+    to what when and has options for easily updating a shared or public
+    version of your code
+    on <a href="https://github.com/">github.com</a>. You will need a
+    <a href="https://help.github.com/articles/supported-browsers/">supported
+    web browser</a>.
+  </p>
+  <p>
+    You will need an account at <a href="https://github.com/">github.com</a>
+    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
+    you to create a GitHub account if you don't have one already.
+    Please consider what personal information you'd like to reveal. For
+    example, you may want to review these
+    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
+      for keeping your email address private</a> provided at GitHub.
+  </p>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event,'GitWindows')">Windows</button>
+    <button class="tablinks" onclick="openTab(event,'GitMacOS')">MacOS</button>
+    <button class="tablinks" onclick="openTab(event,'GitLinux')">Linux</button>
+  </div>
+    <div id="GitWindows" class="tabcontent">
+      <p>
+        Git should be installed on your computer as part of your Bash
+        install (see the
+        <a href="#shell">Shell installation instructions</a>).
+      </p>
+    </div>
+    <div id="GitMacOS" class="tabcontent">
+      <p>
+        <strong>For macOS</strong>, install Git for Mac
+        by downloading and running the most recent "mavericks" installer from
+        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
+        Because this installer is not signed by the developer, you may have to
+        right click (control click) on the .pkg file, click Open, and click
+        Open on the pop up window.
+        After installing Git, there will not be anything in your <code>/Applications</code> folder,
+        as Git is a command line program.
+        <strong>For older versions of OS X (10.5-10.8)</strong> use the
+        most recent available installer labelled "snow-leopard"
+        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
+      </p>
+      <p><strong>Video Tutorial: </strong><a href="https://youtu.be/9LQhwETCdwY">SWC Install Shell, Git, and Nano on Mac</a></p>
+    </div>
+    <div id="GitLinux" class="tabcontent">
+      <p>
+      If Git is not already available on your machine you can try to
+      install it via your distro's package manager. For Debian/Ubuntu run
+      <code>sudo apt-get install git</code> and for Fedora run
+      <code>sudo dnf install git</code>.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- End of Git section. -->
+
+
+<!-- hiding SQL Lite insrtuctions -->
+<div id="sql"> Start of 'SQLite' section.
+  <h3>SQLite</h3>
+  <p>
+    SQL is a specialized programming language used with databases.  We
+    use a simple database manager called
+    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="sql-windows">Windows</h4>
+      <p>
+        The <a href="{{site.swc_installer}}">Software Carpentry Windows Installer</a>
+        installs SQLite for Windows.
+        If you used the installer to configure nano, you don't need to run it again.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="sql-macosx">Mac OS X</h4>
+      <p>
+        SQLite comes pre-installed on Mac OS X.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="sql-linux">Linux</h4>
+      <p>
+        SQLite comes pre-installed on Linux.
+      </p>
+    </div>
+  </div>
+
+<!-- </div> End of 'SQLite' section. -->
+<!--test note-->
+<!--
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
@@ -239,3 +548,4 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+-->
