@@ -156,8 +156,6 @@ then make sure the '_config.yaml' file has updated workshop_repo and workshop_si
      </tbody></table>
   </div>
 </div>
-</hr>
-
 
 
 <h2 id="curriculum">Curriculum</h2>
@@ -195,17 +193,7 @@ We will use HackMD collaborative notes for taking notes, and sharing URLs and bi
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  To participate in a  workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -213,24 +201,64 @@ We will use HackMD collaborative notes for taking notes, and sharing URLs and bi
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-{% comment %}
+<!-- Zoom Installation 
+
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
 - recommendations for setting up Learners' workspace so they can follow along
   the instructions and the videoconferencing
 
-If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instrucctions.
-{% endcomment %}
-{% if online != "false" %}
-{% include install_instructions/videoconferencing.html %}
-{% endif %}
+-->
+<h2>Install the videoconferencing client</h2>
+<p>
+  If you haven't used Zoom before, go to the
+  <a href="https://zoom.us/download">official website</a>
+  to download and install the Zoom client for your computer.
+</p>
+
+<h4>Set up your workspace</h4>
+
+<p>
+  Like other Carpentries workshops,
+  you will be learning by "coding along" with the Instructors.
+  To do this, you will need to have both the window for the tool
+  you will be learning about (a terminal, RStudio, your web browser, etc..)
+  and the window for the Zoom video conference client open.
+  In order to see both at once,
+  we recommend using one of the following set up options:
+  <ul>
+    <li><strong>Two monitors:</strong> If you have two monitors,
+      plan to have your terminal up on one monitor and
+      the video conferencing software on the other.</li>
+    <li><strong>Two devices:</strong> If you don't have two monitors,
+      do you have another device (tablet, smartphone) with a medium to large
+      sized screen? If so, try using the smaller device as your video
+      conference connection and your larger device (laptop or desktop)
+      to follow along with Make commands.</li>
+    <li><strong>Divide your screen:</strong> If you only have one device
+      and one screen, practice having two windows
+      (the video conference program and one of the tools you will be using
+      at the workshop) open together.
+      How can you best fit both on your screen?
+      Will it work better for you to toggle between them
+      using a keyboard shortcut?
+      Try it out in advance to decide what will work best for you.</li>
+  </ul>
+  This <a href="https://carpentries.org/blog/2020/06/online-workshop-logistics-and_screen-layouts/" target="_blank">blog post</a> includes detailed information on how to set up your screen to follow along during the workshop.
+</p>
 
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
+
+<h2 id="setup">Setup</h2>
+
+<p>
+  To participate in this workshop, you will need
+  access to the software described below. In addition, you will
+  need an up-to-date web browser.
+</p>
 
 <!-- Start of 'R' section. -->
 <div id="r">
