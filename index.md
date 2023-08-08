@@ -148,7 +148,7 @@ then make sure the '_config.yaml' file has updated workshop_repo and workshop_si
       <tr><td>Sept 11</td><td> Day 1 </td><td> The Unix Shell: Introduction, Navigating the file system, & working with files & directories</td></tr>
       <tr><td>Sept 12</td><td> Day 2 </td><td> Version Control with Git: Introduction, Creating a Repository, Tracking Changes, and Collaborating</td></tr>
       <tr><td>Sept 13</td><td> Day 3 </td><td> Intro to R & RStudio: basics, data structures, data import/export, dylyr </td></tr>
-      <tr><td>Sept 14</td><td> Day 4 <td><td> Intro to R & RStudio: dplyr (cont.), tidyverse, plotting with ggplot2 and knitr </td></tr>
+      <tr><td>Sept 14</td><td> Day 4 </td><td> Intro to R & RStudio: dplyr (cont.), tidyverse, plotting with ggplot2 and knitr </td></tr>
       <tr><td>Sept 18</td><td> Day 5 </td><td> Intro to Python: Running/writing, variables/assignment, data types/type conversions, built-in functions/help, libraries, reading/writing data in Dataframes, and Pandas Dataframes </td></tr>
       <tr><td>Sept 19</td><td> Day 6 </td><td> Intro to Python: plotting, lists, for loops, conditionals, looping over datasets, and writing functions </td></tr>
       <tr><td>Sept 20</td><td> Day 7 </td><td> Tidy Data: learn how to use this tool to clean, transform, and track changes made to data </td></tr>
