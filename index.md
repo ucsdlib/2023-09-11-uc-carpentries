@@ -180,26 +180,7 @@ We will be using the specific software downloads and data for each lesson. Pleas
 We will use HackMD collaborative notes for taking notes, and sharing URLs and bits of code. The links to each session are listed at this <a href="https://hackmd.io/vfJr8dEaQn-bKG2XoWZexw?edit">link</a>.</p>
 
 <hr/>
-<!--
-  SETUP
-  Delete irrelevant sections from the setup instructions.  Each
-  section is inside a 'div' without any classes to make the beginning
-  and end easier to find.
-  This is the other place where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
--->
 
-<h2 id="setup">Setup</h2>
-
-<p>
-  To participate in a  workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
 
 <!-- Zoom Installation 
 
@@ -209,6 +190,9 @@ For online workshops, the section below provides:
   the instructions and the videoconferencing
 
 -->
+
+<h2>Zoom Installation</h2>
+
 <h2>Install the videoconferencing client</h2>
 <p>
   If you haven't used Zoom before, go to the
@@ -252,12 +236,24 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<!--
+  SETUP
+  Delete irrelevant sections from the setup instructions.  Each
+  section is inside a 'div' without any classes to make the beginning
+  and end easier to find.
+  This is the other place where people frequently make mistakes, so
+  please preview your site before committing, and make sure to run
+  'tools/check' as well.
+-->
 
+<h2 id="setup">Setup</h2>
 <p>
-  To participate in this workshop, you will need
-  access to the software described below. In addition, you will
-  need an up-to-date web browser.
+  To participate in a  workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
 <!-- Start of 'R' section. -->
