@@ -144,15 +144,17 @@ then make sure the '_config.yaml' file has updated workshop_repo and workshop_si
 <div class="row">
   <div>
     <table class="table">
-     <thead><tr> <th><strong>Date</strong></th> <th><strong>Session</strong></th> <th><strong>Topics</strong></th> </tr></thead>
+     <thead><tr> <th><strong>Date</strong></th> <th><strong>Day</strong></th> <th><strong>Topics</strong></th> </tr></thead>
      <tbody>
-      <tr><td>Sept 6</td><td>Introduction to R - Part 1 <br> Introduction to Python - Part 1</td><td>Intro to R & RStudio - basics, data structures, and data import/export <br> Python: Running/Wuitting, Variables and Assignment, Data Types/Type Conversions, Built-in Functions, and Help</td></tr>
-      <tr><td>Sept 7</td><td>Introduction to R - Part 2 <br> Introduction to Python - Part 2</td><td> R: dplyr and tidyverse <br> Python: Libraries, Writing Functions, Reading/Writing data in Dataframes, and Pandas Dataframes</td></tr>
-      <tr><td>Sept 8</td><td>Introduction to R - Part 3 <br> Introduction to Python - Part 3</td><td> R: Plotting with ggplot2 and knitr <br> Python: Plotting, Lists, For Loops, Looping over Datasets, and Conditionals</td></tr>
-      <tr><td>Sept 9</td><td> The Unix Shell</td><td> Introduction, Navigating the file system, & working with files & directories</td></tr>
-      <tr><td>Sept 12</td><td> Version Control with Git</td><td> Introduction, Creating a Repository, Tracking Changes, and Collaborating</td></tr>
-      <tr><td>Sept 13</td><td> SQL <br> OpenRefine </td><td> SQL:Introduction, Creating a Repository, Tracking Changes, and Collaborating <br> OpenRefine: OpenRefine: Cleaning and Transforming data</td></tr>
-      </tbody></table>
+      <tr><td>Sept 11</td><td> Day 1 </td><td> The Unix Shell: Introduction, Navigating the file system, & working with files & directories</td></tr>
+      <tr><td>Sept 12</td><td> Day 2 </td><td> Version Control with Git: Introduction, Creating a Repository, Tracking Changes, and Collaborating</td></tr>
+      <tr><td>Sept 13</td><td> Day 3 </td><td> Intro to R & RStudio: basics, data structures, data import/export, dylyr <br> Python: </td></tr>
+      <tr><td>Sept 14</td><td> Day 4 <td><td> Intro to R & RStudio: dplyr (cont.), tidyverse, plotting with ggplot2 and knitr </td></tr>
+      <tr><td>Sept 18</td><td> Day 5 </td><td> Intro to Python: Running/writing, variables/assignment, data types/type conversions, built-in functions/help, libraries, reading/writing data in Dataframes, and Pandas Dataframes </td></tr>
+      <tr><td>Sept 19</td><td> Day 6 </td><td> Intro to Python: plotting, lists, for loops, conditionals, looping over datasets, and writing functions </td></tr>
+      <tr><td>Sept 20</td><td> Day 7 </td><td> Tidy Data: learn how to use this tool to clean, transform, and track changes made to data </td></tr>
+      <tr><td>Sept 21</td><td> Day 8 </td><td> SQL:Introduction, Creating a Repository, Tracking Changes, and Collaborating </td></tr>
+     </tbody></table>
   </div>
 </div>
 
