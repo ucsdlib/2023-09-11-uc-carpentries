@@ -525,13 +525,12 @@ during the workshop.
       </p>
     </div>
   </div>
-</div>
 
 <!-- End of Git section. -->
 
 
-<!-- hiding SQL Lite insrtuctions -->
-<div id="sql"> Start of 'SQLite' section.
+<!-- hiding SQL Lite insrtuctions Start of 'SQLite' section. -->
+<div id="sql">
   <h3>SQLite</h3>
   <p>
     SQL is a specialized programming language used with databases.  We
@@ -561,6 +560,6 @@ during the workshop.
       </p>
     </div>
   </div>
-
-</div> <--End of 'SQLite' section. -->
+</div> 
+<!--End of 'SQLite' section. -->
 <!--test note-->
