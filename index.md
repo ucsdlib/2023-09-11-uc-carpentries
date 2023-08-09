@@ -236,6 +236,9 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+
+
+
 <!--
   SETUP
   Delete irrelevant sections from the setup instructions.  Each
@@ -245,6 +248,8 @@ during the workshop.
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
+
+<!--
 
 <h2 id="setup">Setup</h2>
 <p>
@@ -563,3 +568,7 @@ during the workshop.
 </div> 
 <!--End of 'SQLite' section. -->
 <!--test note-->
+
+
+
+-->
