@@ -1,25 +1,25 @@
 ---
-layout: workshop
+layout: workshop      # DON'T CHANGE THIS.
 root: .
-eventtitle: "Carpentries Bootcamp: Python, Unix Shell, & Git" # enter name of the event here
-venue: "UC San Diego"      # brief name of host site without address (e.g., "Euphoric State University")
-address: "Zoom"    # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
-country: "us"    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "en"   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "null"     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: "June 26 - 29, 2023"  # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: "1:00pm - 4:00pm PT"  # human-readable time (e.g., "9:00 am - 4:30 pm")
-startdate: "2023-06-26"  # use YYYY-MM-DD format like "2015-01-01"
-enddate: "2023-06-29"  # use YYYY-MM-DD format like" 2015-01-02"
-days: null
-instructor: ["Celeste Calland", "Kim Thomas", "Reid Otsuji", "Rukmini Ravi"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Kim Thomas", "Rukmini Ravi"]  # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "carpentries@ucsd.edu"    # contact email address for workshop organizer, such as "grace@hopper.org"
-<!-- etherpad: "" # optional (insert the URL for your Etherpad if you're using one) -->
+eventtitle: "2023 UC Carpentries Fall Workshop"  
+venue: "University of California"      # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
+latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "Sept. 11-21, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "8:30 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2023-09-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2023-09-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: [ "Scott Peterson", "Reid Otsuji", "Kim Thomas", "Albert Lee", "Echelle Burns", "Scott Peterson", "Geoffrey Boushey", "David Palmquist", "Elizabeth McAulay", "Jamie Jamison", "Derek Devnich", "Saulo Soares" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [ "Rosana Aguilera", "Celeste Allaband", "Jean Allen", "Kristian Allen", "Misha Coleman", "Stephanie Labou", "Devontae Baxter", "Monique Surles-Zeigler", "Ellen Davenport" ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["carpentries@ucsd.edu"]  # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["timdennis@ucla.edu", "rotsuji@ucsd.edu", "speterso@library.berkeley.edu"]
+collaborative_notes: ["TBD"] # optional: URL for the workshop collaborative notes, e.g. an HackMD or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 ---
+
 <!--
   HEADER (above)
-
   Edit the values in the block above to be appropriate for your workshop.
   If the value is not 'true', 'false', 'null', or a number, please use
   double quotation marks around the value, unless specified otherwise.
@@ -27,28 +27,21 @@ contact: "carpentries@ucsd.edu"    # contact email address for workshop organize
 -->
 
 <!--
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
--->
-<!--
   INTRODUCTION
-
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 -->
+
 <hr/>
+<h2 id="general">General Information</h2>
 <p>
-  <a href="{{site.swc_site}}">Software Carpentry</a>
-  aims to help researchers get their work done
-  in less time and with less pain
-  by teaching them basic research computing skills.
-  This hands-on workshop will cover basic concepts and tools used with the Python programming language and version control with Git.
-  Participants will be encouraged to help one another
-  and to apply what they have learned to their own research problems.
+  <a href="{{site.swc_site}}">The Carpentries</a>
+  aims to help researchers get their work done in less time and with less pain by teaching them basic research computing skills. 
+  This workshop is designed for researchers and enables non-experts to develop computing skills for research analysis. We will cover 
+  basic concepts and tools, such as - working with libraries and data frames; reading and plotting data; creating and using functions; 
+  the shell using command-line applications; cleaning and transforming data; and more. Participants will be encouraged to help one another 
+  and to apply what they This is a free workshop and is open to all University of California students, staff, and faculty. 
+  have learned to their own research problems.
 </p>
 
 <p>
@@ -59,24 +52,18 @@ contact: "carpentries@ucsd.edu"    # contact email address for workshop organize
   </em>
 </p>
 
-</hr>
 <!--
   AUDIENCE
-
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 -->
 <p id="who">
   <strong>Who:</strong>
-  This workshop is open to UCSD students, staff, and faculty.
-</p>
-<p>
-  <strong>You don't need to have any previous knowledge of programming or the tools presented in the workshop to attend.  A laptop is required for each session.</strong>
+  This workshop is open to University of California students, staff, postdocs, and faculty. <strong>You don't need to have any previous knowledge of programming or the tools presented in the workshop to attend.  A laptop is required for each session.</strong>
 </p>
 
 <!--
   LOCATION
-
   This block displays the address and links to maps showing directions
   if the latitude and longitude of the workshop have been set.  You
   can use http://itouchmap.com/latlong.html to find the lat/long of an
@@ -84,54 +71,40 @@ contact: "carpentries@ucsd.edu"    # contact email address for workshop organize
 -->
 {% if page.latlng %}
 <p id="where">
-  <strong>Where:</strong>
-  {{page.address}}
+  <strong>Location:</strong>
+  {{page.address}}.
 </p>
 {% endif %}
 
 <!--
   SPECIAL REQUIREMENTS
-
   Modify the block below if there are any special requirements.
 -->
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with
+  <strong>Requirements:</strong> Participants must have a laptop or desktop with
   a few specific software packages installed (listed
   <a href="#setup">below</a>).
 </p>
 
 <!--
   CONTACT EMAIL ADDRESS
-
   Display the contact email address set in the header.  If an address
   isn't set in the header, the Software Carpentry admin address is
   used.
 -->
 <p id="contact">
   <strong>Contact</strong>:
-  Please email
-  {% if page.contact %}
-    <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
-  {% else %}
-    <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
-  {% endif %}
-  for more information.
+  Please email carpentries@ucsd.edu for more information.
 </p>
-
+<!--
 <p id="certificate">
-<strong>Assessment</strong>:
-A Co-Curricular of Record activity recognition may be requested for the student who:
-</p>
-
-<ul>
-<li>Attend and participate in all sessions</li>
-<li>Pass the post-workshop quiz</li>
-</ul>
-<p>
-For more information on the UC San Diego Co-Curricular of Record (CCR), please visit the <a href="https://elt.ucsd.edu/ccr/index.html">UCSD Engaged Learning Tools Co-Curricular Record page</a>.
+<strong>For UCSD students</strong>:
+  A Co-Curricular of Record activity recognition may be requested for UCSD students who attend Day 1-3 plus one additional session day. 
+  For more information on the UC San Diego Co-Curricular of Record (CCR), please visit the <a href="https://elt.ucsd.edu/ccr/index.html">UCSD Engaged 
+  Learning Tools Co-Curricular Record page</a>.
 </p>
 <hr/>
-
+-->
 <!-- Below is the official Carpentries Code of Conduct information -->
 
 <h2 id="code-of-conduct">Code of Conduct</h2>
@@ -152,88 +125,196 @@ Everyone who participates in Carpentries activities is required to conform to th
 
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
+<!--<p>pending<p>-->
 
-    <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<!-- to add survey go to 'layouts' folder >  'workshops.html' and update to "<meta name="slug" content="{{site.github.project_title}}"
+then make sure the '_config.yaml' file has updated workshop_repo and workshop_site links -->
+
+<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
 <hr/>
 
 <!--
   SCHEDULE
-
   Show the workshop's schedule.  
 -->
 <h2 id="schedule">Schedule</h2>
 <div class="row">
-  <div>   
+  <div>
     <table class="table">
-     <thead><tr> <th><strong>Date</strong></th> <th><strong>Session</strong></th> <th><strong>Topics</strong></th> </tr></thead>
+     <thead><tr> <th><strong>Date</strong></th> <th><strong>Day</strong></th> <th><strong>Topics</strong></th> </tr> </thead>
      <tbody>
-      <tr><td>June 26th</td><td>Introduction to Python - Session 1</td><td> Jupyter Notebook - Running/Wuitting, Variables and Assignment, Data Types/Type Conversions, Built-in Functions, and Help</td></tr>
-      <tr><td>June 27th</td><td>Introduction to Python - Session 2</td><td> Libraries, Writing Functions, Reading/Writing data in Dataframes, and Pandas Dataframes</td></tr>
-      <tr><td>June 28th</td><td>Introduction to Python - Session 3</td><td> Plotting, Lists, For Loops, Looping over Datasets, and Conditionals </td></tr>
-      <tr><td>June 29th</td><td>Unix Shell & Version Control w/ Git</td><td> Unix Shell: Introduction, Navigating the file system, & working with files & directories <br> Git: Introduction, Creating a Repository, Tracking Changes, and Collaborating</td></tr>
-     </tbody></table>   
+      <tr><td>Sept 11</td><td> Day 1 </td><td> The Unix Shell: Introduction, Navigating the file system, & working with files & directories</td></tr>
+      <tr><td>Sept 12</td><td> Day 2 </td><td> Version Control with Git: Introduction, Creating a Repository, Tracking Changes, and Collaborating</td></tr>
+      <tr><td>Sept 13</td><td> Day 3 </td><td> Intro to R & RStudio: basics, data structures, data import/export, dylyr </td></tr>
+      <tr><td>Sept 14</td><td> Day 4 </td><td> Intro to R & RStudio: dplyr (cont.), tidyverse, plotting with ggplot2 and knitr </td></tr>
+      <tr><td>Sept 18</td><td> Day 5 </td><td> Intro to Python: Running/writing, variables/assignment, data types/type conversions, built-in functions/help, libraries, reading/writing data in Dataframes, and Pandas Dataframes </td></tr>
+      <tr><td>Sept 19</td><td> Day 6 </td><td> Intro to Python: plotting, lists, for loops, conditionals, looping over datasets, and writing functions </td></tr>
+      <tr><td>Sept 20</td><td> Day 7 </td><td> Tidy Data: learn how to use this tool to clean, transform, and track changes made to data </td></tr>
+      <tr><td>Sept 21</td><td> Day 8 </td><td> SQL:Introduction, Creating a Repository, Tracking Changes, and Collaborating </td></tr>
+     </tbody></table>
   </div>
 </div>
-</hr>
-<!--
-  ETHERPAD
 
-  At `_misc/etherpad.txt` you will find a template for the etherpad.
 
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop,
-  e.g., '2015-06-10-esu'.
--->
 <h2 id="curriculum">Curriculum</h2>
-<!-- Python specific data information begins -->
+<!-- R specific data information begins -->
 <p id = "curriculum">
-For this workshop we will be referencing the <a href="http://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a>, <a href="https://librarycarpentry.org/lc-shell/">The UNIX Shell</a>, and <a href="https://librarycarpentry.org/lc-git/">Introduction to Git</a> Carpentries curricula. 
+For this workshop we will be referencing the <a href="https://swcarpentry.github.io/shell-novice/">The UNIX Shell</a>, <a href="https://swcarpentry.github.io/git-novice/">Version Control with Git</a>, <a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a>, <a href="http://swcarpentry.github.io/python-novice-gapminder/"> Plotting and Programming in Python</a>, <a href="https://librarycarpentry.org/lc-spreadsheets/setup.html">Tidy Data</a>, and <a href="https://datacarpentry.org/sql-ecology-lesson/index.html">SQL</a> Carpentries curricula. 
 </p>
 
 <hr/>
 
 <h2 id="datasect">Data</h2>
-<!-- Python specific data information begins -->
+<!-- R specific data information begins -->
 <p id = "data">
-We will be using <a href="http://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">gapminder data</a> andthe <a href="https://librarycarpentry.org/lc-shell/data/shell-lesson.zip">shell-lesson data</a>. Please download the data prior to start of first session.
-</p>
+We will be using the specific software downloads and data for each lesson. Please refer to the listing of downloads needed for each session you'll be attending as provided at this <a href="https://hackmd.io/@U2NG/SJkaMk2t7">link</a>.</p>
+<!-- R specific data information ends -->
 
 <hr/>
 
 <h2 id="collabnotes">Collaborative Notes</h2>
 <!-- Python specific data information begins -->
 <p id = "notes">
-We will use HackMD collaborative notes for taking notes, and sharing URLs and bits of code. Please use the following link to access the collaborative notes: 
-<a href="https://hackmd.io/4g9vUUBfTzacwN1jGgiKug">https://hackmd.io/4g9vUUBfTzacwN1jGgiKug</a>.
-</p>
+We will use HackMD collaborative notes for taking notes, and sharing URLs and bits of code. The links to each session are listed at this <a href="https://hackmd.io/vfJr8dEaQn-bKG2XoWZexw?edit">link</a>.</p>
 
 <hr/>
+
+
+<!-- Zoom Installation 
+
+For online workshops, the section below provides:
+- installation instructions for the Zoom client
+- recommendations for setting up Learners' workspace so they can follow along
+  the instructions and the videoconferencing
+
+-->
+
+<h2>Zoom Installation</h2>
+
+<h2>Install the videoconferencing client</h2>
+<p>
+  If you haven't used Zoom before, go to the
+  <a href="https://zoom.us/download">official website</a>
+  to download and install the Zoom client for your computer.
+</p>
+
+<h4>Set up your workspace</h4>
+
+<p>
+  Like other Carpentries workshops,
+  you will be learning by "coding along" with the Instructors.
+  To do this, you will need to have both the window for the tool
+  you will be learning about (a terminal, RStudio, your web browser, etc..)
+  and the window for the Zoom video conference client open.
+  In order to see both at once,
+  we recommend using one of the following set up options:
+  <ul>
+    <li><strong>Two monitors:</strong> If you have two monitors,
+      plan to have your terminal up on one monitor and
+      the video conferencing software on the other.</li>
+    <li><strong>Two devices:</strong> If you don't have two monitors,
+      do you have another device (tablet, smartphone) with a medium to large
+      sized screen? If so, try using the smaller device as your video
+      conference connection and your larger device (laptop or desktop)
+      to follow along with Make commands.</li>
+    <li><strong>Divide your screen:</strong> If you only have one device
+      and one screen, practice having two windows
+      (the video conference program and one of the tools you will be using
+      at the workshop) open together.
+      How can you best fit both on your screen?
+      Will it work better for you to toggle between them
+      using a keyboard shortcut?
+      Try it out in advance to decide what will work best for you.</li>
+  </ul>
+  This <a href="https://carpentries.org/blog/2020/06/online-workshop-logistics-and_screen-layouts/" target="_blank">blog post</a> includes detailed information on how to set up your screen to follow along during the workshop.
+</p>
+
+{% comment %}
+These are the installation instructions for the tools used
+during the workshop.
+{% endcomment %}
+
+
+
+
 <!--
   SETUP
-
   Delete irrelevant sections from the setup instructions.  Each
   section is inside a 'div' without any classes to make the beginning
   and end easier to find.
-
   This is the other place where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
 
-<h2 id="setup">Setup</h2>
+<!--
 
+<h2 id="setup">Setup</h2>
 <p>
-  To participate in this workshop, you will need
-  access to the software described below. In addition, you will
-  need an up-to-date web browser.
+  To participate in a  workshop, you will need access to the software described below. In addition, you will need an up-to-date web browser.
 </p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+<!-- Start of 'R' section. -->
+<div id="r">
+  <h3>R</h3>
+  <p>
+    <a href="https://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="https://www.rstudio.com/">RStudio</a>.
+  </p>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event,'RWindows')">Windows</button>
+    <button class="tablinks" onclick="openTab(event,'RMacOS')">MacOS</button>
+    <button class="tablinks" onclick="openTab(event,'RLinux')">Linux</button>
+  </div>
+  <div id="RWindows" class="tabcontent">
+    <p>
+      Install R by downloading and running
+      <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+      from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+      Also, please install the
+      <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+      Note that if you have separate user and admin accounts, you should run the
+      installers as administrator (right-click on .exe file and select "Run as
+      administrator" instead of double-clicking). Otherwise problems may occur later,
+      for example when installing R packages.
+    </p>
+    <p><strong>Video Tutorial:</strong> <a href="https://youtu.be/q0PjTAylwoU">SWC R Install Windows</a></p>
+  </div>
+  <div id="RMacOS" class="tabcontent">
+    <p>
+      Install R by downloading and running
+      <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+      from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+      Also, please install the
+      <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+    </p>
+    <p><strong>Video Tutorial:</strong> <a href="https://youtu.be/5-ly3kyxwEg">SWC R Install Mac</a></p>     
+  </div>
+  <div id="RLinux" class="tabcontent">
+    <p>
+      Instructions for R installation on various Linux platforms (debian,
+      fedora, redhat, and ubuntu) can be found at
+      <https://cran.r-project.org/bin/linux/>. These will instruct you to
+      use your package manager (e.g. for Fedora run
+      <code>sudo dnf install R</code> and for Debian/Ubuntu, add a ppa
+      repository and then run <code>sudo apt-get install r-base</code>).
+      Also, please install the
+      <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+    </p>
+  </div>
+</div>
+
+<!-- End of 'R' section. -->
+
 <!-- Start of 'Python' section. -->
 <div id="python">
   <h3>Python</h3>
@@ -449,13 +530,12 @@ We will use HackMD collaborative notes for taking notes, and sharing URLs and bi
       </p>
     </div>
   </div>
-</div>
 
 <!-- End of Git section. -->
 
 
-<!-- hiding SQL Lite insrtuctions
-<div id="sql"> Start of 'SQLite' section.
+<!-- hiding SQL Lite insrtuctions Start of 'SQLite' section. -->
+<div id="sql">
   <h3>SQLite</h3>
   <p>
     SQL is a specialized programming language used with databases.  We
@@ -485,6 +565,7 @@ We will use HackMD collaborative notes for taking notes, and sharing URLs and bi
       </p>
     </div>
   </div>
-
-</div> End of 'SQLite' section. -->
+</div> 
+<!--End of 'SQLite' section. -->
 <!--test note-->
+
