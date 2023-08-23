@@ -2,7 +2,7 @@
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
 workshop_repo   : "https://github.com/ucsdlib/2023-09-11-uc-carpentries"
-workshop_site   : "https://kthoma2484.ucsdlib.io/2023-09-11-uc-carpentries"
+workshop_site   : "https://ucsdlib.github.io/2023-09-11-uc-carpentries/"
 #--------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------
 # Standard Software Carpentry settings - should not need to be modified.
